@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7A7A7A"
+    android:backgroundTint="@color/material_on_background_emphasis_medium"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <!--title-->
+    <TextView
+        android:id="@+id/BattleshipArmada"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="@string/battleships_armada"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="44sp"
+
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
+    <!--
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="726dp"
+        android:layout_height="488dp"
+        android:layout_marginStart="-161dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/bg"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" /> -->
+
+    <!--right button -->
+    <Button
+        android:id="@+id/InsButt"
+        android:layout_width="132dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="41dp"
+        android:background="@drawable/roundbuttonins"
+        android:text="@null"
+        app:layout_constraintStart_toEndOf="@+id/settbutt"
+        app:layout_constraintTop_toBottomOf="@+id/BigWhitecircleImage" />
+
+    <!--left button -->
+    <Button
+        android:id="@+id/settbutt"
+        android:layout_width="132dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="41dp"
+        android:background="@drawable/roundbuttonsettings"
+        android:text="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BigWhitecircleImage" />
+    <!-- bigger circle -->
+    <ImageView
+        android:id="@+id/BigWhitecircleImage"
+        android:layout_width="743dp"
+        android:layout_height="451dp"
+        android:layout_marginStart="-168dp"
+        android:layout_marginTop="64dp"
+        android:contentDescription="@null"
+        android:src="@drawable/shape"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BattleshipArmada" />
+    <!-- grey circle-->
+    <ImageView
+        android:id="@+id/GreycircleImage"
+        android:layout_width="522dp"
+        android:layout_height="353dp"
+        android:layout_marginStart="-55dp"
+        android:layout_marginTop="-405dp"
+        android:contentDescription="@null"
+        android:src="@drawable/smallercircle"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BigWhitecircleImage" />
+    <!-- smaller circle -->
+    <ImageView
+        android:id="@+id/whitearoundorangecircleImage"
+        android:layout_width="484dp"
+        android:layout_height="169dp"
+        android:layout_marginStart="-35dp"
+        android:layout_marginTop="-260dp"
+        android:contentDescription="@null"
+        android:src="@drawable/playbiggercircle"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GreycircleImage" />
+    <!--smallest circle-->
+    <ImageView
+        android:id="@+id/orangecircleImage"
+        android:layout_width="449dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="-18dp"
+        android:layout_marginTop="-160dp"
+        android:contentDescription="@null"
+        android:src="@drawable/orangecircle"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/whitearoundorangecircleImage" />
+    <!--triangle-->
+    <ImageView
+        android:id="@+id/PlayImage"
+        android:layout_width="123dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="-135dp"
+        android:layout_marginEnd="100dp"
+        android:clickable="true"
+        android:contentDescription="@null"
+        android:src="@drawable/triangle"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/orangecircleImage" />
+    <!--settings button-->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/SettingsButton"
+        android:layout_width="132dp"
+        android:layout_height="127dp"
+        app:cardCornerRadius="100dp"
+        app:layout_constraintBottom_toBottomOf="@id/settbutt"
+        app:layout_constraintStart_toStartOf="@id/settbutt">
+
+        <ImageView
+            android:id="@+id/settingsImage"
+            android:layout_width="228dp"
+            android:layout_height="204dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="50dp"
+            android:adjustViewBounds="true"
+            android:baselineAlignBottom="false"
+            android:clickable="true"
+            android:contentDescription="@string/setdesc"
+            android:cropToPadding="true"
+            android:elevation="20dp"
+            android:padding="-90dp"
+            android:paddingStart="-180dp"
+            android:paddingEnd="-75dp"
+            android:paddingBottom="68dp"
+            app:srcCompat="@drawable/settings" />
+    </androidx.cardview.widget.CardView>
+    <!--instructions button-->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/InsButton"
+        android:layout_width="129dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="42dp"
+        app:cardCornerRadius="100dp"
+        app:layout_constraintEnd_toEndOf="@+id/InsButt"
+        app:layout_constraintStart_toEndOf="@+id/settbutt"
+        app:layout_constraintTop_toBottomOf="@+id/BigWhitecircleImage">
+
+        <ImageView
+            android:id="@+id/QuestionmarkImage"
+            android:layout_width="128dp"
+            android:layout_height="139dp"
+            android:adjustViewBounds="true"
+            android:clickable="true"
+            android:cropToPadding="true"
+            android:padding="-7dp"
+            app:srcCompat="@drawable/instructions" />
+    </androidx.cardview.widget.CardView>
+    <!--black triangle--> <!--svg pathway editor-->
+    <ImageView
+        android:id="@+id/blacktriangle"
+        android:layout_width="517dp"
+        android:layout_height="602dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="-90dp"
+        android:rotation="90"
+        android:rotationX="0"
+        android:rotationY="0"
+        android:src="@drawable/blacktriangle"
+        android:translationX="-15dp"
+        android:translationY="-5dp"
+        app:layout_constraintBottom_toTopOf="@+id/settbutt"
+        app:layout_constraintEnd_toStartOf="@+id/InsButt" />
+    <!--cyan triangle-->
+    <ImageView
+        android:id="@+id/cyantriangle"
+        android:layout_width="482dp"
+        android:layout_height="451dp"
+        android:layout_marginStart="-287dp"
+        android:layout_marginBottom="-447dp"
+        android:rotation="-90"
+        android:rotationY="0"
+        android:src="@drawable/cyantriangle"
+        android:translationX="5dp"
+        android:translationY="-20dp"
+        app:layout_constraintBottom_toTopOf="@+id/blacktriangle"
+        app:layout_constraintStart_toEndOf="@+id/GreycircleImage"
+        tools:ignore="ContentDescription" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

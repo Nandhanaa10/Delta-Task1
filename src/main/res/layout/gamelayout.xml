@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<!--cannon-->
+    <ImageView
+        android:id="@+id/cannondown"
+        android:layout_width="408dp"
+        android:layout_height="447dp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cannon" />
+    <!-- player 1 tiles -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/player1"
+        android:layout_width="407dp"
+        android:layout_height="447dp"
+        android:layout_marginStart="1dp"
+        android:background="@color/cyan"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/a"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:translationX="50dp"
+            android:translationY="50dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/b"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:translationX="102dp"
+            android:translationY="50dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="154dp"
+            android:translationY="50dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/d"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="206dp"
+            android:translationY="50dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/e"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="258dp"
+            android:translationY="50dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/f"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="310dp"
+            android:translationY="50dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/g"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="50dp"
+            android:translationY="100dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/h"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="102dp"
+            android:translationY="100dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/i"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="154dp"
+            android:translationY="100dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/j"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="206dp"
+            android:translationY="100dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/k"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="258dp"
+            android:translationY="100dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/l"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="310dp"
+            android:translationY="100dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/m"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="50dp"
+            android:translationY="150dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/n"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="102dp"
+            android:translationY="150dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/o"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="154dp"
+            android:translationY="150dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/p"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="206dp"
+            android:translationY="150dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/q"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="258dp"
+            android:translationY="150dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/r"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="310dp"
+            android:translationY="150dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/s"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="50dp"
+            android:translationY="200dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/t"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="102dp"
+            android:translationY="200dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/u"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="154dp"
+            android:translationY="200dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/v"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="206dp"
+            android:translationY="200dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/w"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="258dp"
+            android:translationY="200dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/d1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="310dp"
+            android:translationY="200dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/e1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="50dp"
+            android:translationY="250dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/f1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="102dp"
+            android:translationY="250dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/g1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="154dp"
+            android:translationY="250dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/h1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="206dp"
+            android:translationY="250dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/i1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="258dp"
+            android:translationY="250dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/j1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="310dp"
+            android:translationY="250dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/k1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="50dp"
+            android:translationY="300dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/l1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="102dp"
+            android:translationY="300dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/m1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="154dp"
+            android:translationY="300dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/n1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="206dp"
+            android:translationY="300dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/o1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="258dp"
+            android:translationY="300dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/p1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="310dp"
+            android:translationY="300dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+        <!--ships player1-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/shipsp1card"
+            android:layout_width="313dp"
+            android:layout_height="50dp"
+            android:rotation="180"
+            android:translationX="50dp"
+            android:translationY="370dp">
+
+            <LinearLayout
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:translationX="10dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="69dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/player1ship3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/ship3" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="74dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/player1ship1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ship2" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="92dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/player1ship2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/ship1" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="68dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/player1ship4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ship3" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- player 2 tiles -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/player2"
+        android:layout_width="411dp"
+        android:layout_height="447dp"
+        android:layout_marginStart="1dp"
+        android:background="@color/black"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/player1">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/a2"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:translationX="50dp"
+            android:translationY="100dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/b2"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:translationX="102dp"
+            android:translationY="100dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="154dp"
+            android:translationY="100dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/d2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="206dp"
+            android:translationY="100dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/e2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="258dp"
+            android:translationY="100dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/f2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="310dp"
+            android:translationY="100dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/g2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="50dp"
+            android:translationY="150dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/h2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="102dp"
+            android:translationY="150dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/i2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="154dp"
+            android:translationY="150dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/j2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="206dp"
+            android:translationY="150dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/k2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="258dp"
+            android:translationY="150dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/l2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="310dp"
+            android:translationY="150dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/m2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="50dp"
+            android:translationY="200dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/n2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="102dp"
+            android:translationY="200dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/o2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="154dp"
+            android:translationY="200dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/p2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="206dp"
+            android:translationY="200dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/q2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="258dp"
+            android:translationY="200dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/r2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="310dp"
+            android:translationY="200dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/s2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="50dp"
+            android:translationY="250dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/t2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="102dp"
+            android:translationY="250dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/u2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="154dp"
+            android:translationY="250dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/v2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="206dp"
+            android:translationY="250dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/w2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="258dp"
+            android:translationY="250dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/x2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="310dp"
+            android:translationY="250dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/y2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="50dp"
+            android:translationY="300dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/z2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="102dp"
+            android:translationY="300dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/a12"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="154dp"
+            android:translationY="300dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/b12"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="206dp"
+            android:translationY="300dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c12"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="258dp"
+            android:translationY="300dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/d12"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="310dp"
+            android:translationY="300dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/e12"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="50dp"
+            android:translationY="350dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/f12"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="102dp"
+            android:translationY="350dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/g12"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="154dp"
+            android:translationY="350dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/h12"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="206dp"
+            android:translationY="350dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/i12"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="258dp"
+            android:translationY="350dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+        <!--ship-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/shipscard"
+            android:layout_width="381dp"
+            android:layout_height="50dp"
+            android:translationY="30dp">
+
+            <LinearLayout
+                android:layout_width="323dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:translationX="50dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="69dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/player2ship3"
+                        android:layout_width="67dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/ship3" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/player2ship1"
+                        android:layout_width="98dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/ship1" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="98dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/player2ship2"
+                        android:layout_width="94dp"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/ship2"
+                        />
+                </androidx.cardview.widget.CardView>
+                <!--ship-->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/player2ship4"
+                        android:layout_width="68dp"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ship3" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/j12"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="310dp"
+            android:translationY="350dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.cardview.widget.CardView>
+<!--semicircle-->
+    <ImageView
+        android:id="@+id/semicircleimage"
+        android:layout_width="182dp"
+        android:layout_height="147dp"
+        android:layout_margin="16dp"
+        android:layout_marginStart="-80dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@null"
+        android:src="@drawable/semicircle"
+        android:translationX="-100dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@id/player2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/player1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

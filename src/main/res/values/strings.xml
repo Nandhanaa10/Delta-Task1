@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">MyFirstApp</string>
+    <string name="battleships_armada">BATTLESHIPS ARMADA</string>
+    <string name="setdesc">Desc</string>
+    <string name="Starting">🔹 Starting the Game
+    Each player begins with a hidden fleet of ships placed on a grid.
+
+    Ships can be of varying lengths and are positioned before the match begins.</string>
+
+    <string name="objective">🎯 Objective
+    Be the first to completely destroy your opponent’s fleet by choosing smart attacks or strategic defenses.</string>
+
+    <string name="attack">⚔️ Attack Select a tile on your opponent’s grid to launch an attack.
+
+    If a ship occupies the tile, it takes damage.
+
+    If no ship is present, the attack misses.
+
+    Damaged ships remain in place but can no longer be moved.
+
+    </string>
+    
+    <string name="fortify">🛡️ Fortify (Defend)
+    Instead of attacking, reposition any undamaged ship on your grid.
+
+    Use this to avoid predicted attacks or strengthen your defense.
+
+    Only undamaged ships can be moved. Once a ship is hit, it’s locked in place.
+`   </string>
+    
+    <string name="Victory">🏁 Victory Condition
+The game continues until one player entire fleet is destroyed.
+
+The player with remaining ships is declared the winner.
+
+    </string>
+
+    <string name="tips">💡 Tips Balance aggression with defense – sometimes it’s better to move than attack.
+Pay attention to enemy patterns and protect your high-value ships.</string>
+    <string name="mode">MODE</string>
+    <string name="darkmode_on">Darkmode ON</string>
+    <string name="_0">0</string>
+    <string name="locked_and_loaded_target_exploded">Locked and loaded, target exploded</string>
+    <string name="ships_ready_fire_at_will">Ships ready. Fire at will!</string>
+    <string name="bonne_bataille_commandant">Bonne bataille, Commandant !</string>
+    <string name="choose_you_slogan">CHOOSE YOU SLOGAN</string>
+    <string name="accuracy">ACCURACY</string>
+</resources>
